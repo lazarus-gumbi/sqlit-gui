@@ -1,0 +1,38 @@
+{
+    "db_name":"Skul",
+    "tables":[
+      {
+        "tablename":"Student",
+        "columns":[
+          {"fullname":"text",
+          "age":"integer",
+          "pin":"integer"}
+          ]
+      },
+           {
+        "tablename":"Class",
+        "columns":[
+          {"classname":"text",
+          "capacity":"integer",
+          "students":"integer"}
+          ]
+          },
+           {
+        "tablename":"Teacher",
+        "columns":[
+          {"fullname":"text",
+          "age"     :"integer",
+          "pin"     :"integer"}
+          ]
+          },
+          {
+        "tablename":"Subjects",
+        "columns":[
+          {"subjectname":"text",
+          "class"     :"integer",
+          "teacher"     :"integer"}
+          ]
+          }
+  
+      ]
+  }
